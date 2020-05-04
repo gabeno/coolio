@@ -33,6 +33,13 @@
     pointer-events: none;
 }
 
+.time-display {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 50px;
+}
+
 .time-select {
     background: lightblue;
 }
