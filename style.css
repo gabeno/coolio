@@ -47,3 +47,21 @@ video {
     width: 100%;
     z-index: -10;
 }
+
+.time-select button,
+.sound-picker button {
+    color: white;
+    width: 30%;
+    height: 10%;
+    background: none;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.time-select button:hover {
+    background: white;
+    color: black;
+}
